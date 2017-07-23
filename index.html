@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script type="text/javascript" src="dardos.js"></script>
+<style>
+
+body {
+	background-color:#B3F7F5;	
+	
+}
+
+#contenedor {
+	width:98%;
+	heigth:98%;
+	margin:auto;
+	border: 3px #262525 solid;
+	border-radius: 10px;	
+}
+
+#cabecera {
+	color:#000000;
+	text-align:center;
+	font-weight:bold;
+	font-size:2.5em;
+	margin-bottom:20px;
+	border:3px solid #000000;
+	border-radius: 5px;
+	
+	width:50%;
+	margin:auto;
+	margin-top:40px;
+	background-color:#ffffff;
+}
+
+
+
+#cuerpo {
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:20px;
+	margin-left:20px;
+	
+}
+
+#tabla {
+	margin:auto;
+}
+
+#boton1 {
+	margin-top:20px;
+	margin-bottom:200px;
+	margin-left:50px;
+}
+
+.izquierda {
+	text-align:right;
+	margin-bottom: 30px;
+	border:2px solid #272626;
+	border-radius:5px;
+}
+ .boton {
+	text-align:right;
+	
+	 
+ }
+
+
+</style>
+</head>
+
+<body>
+<div id='contenedor'>
+<header id="cabecera">
+DARDOS
+</header>
+
+<table id="tabla"><tr><td class="izquierda">Selecciona el número de jugadores:</td>
+<td><select name="jugadores" id="jugadores">
+	<option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+</select></td></tr>
+<tr><td class="izquierda">
+Selecciona el juego:</td>
+<td><select name="tipodejuego" id="tipodejuego">
+	<option value="301">301</option>
+    <option value="501">501</option>
+    <option value="701">701</option>
+    <option value="cricket">Cricket</option>
+    
+</select></td></tr>
+
+
+<tr><td class="boton"><input type="button" value="Aceptar" id="boton1"></td><td></td></tr>
+</table>
+
+</div>
+</body>
+</html>

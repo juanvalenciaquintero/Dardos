@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script type="text/javascript" src="301.js"></script>
+<style>
+
+body {
+	background-color:#B3F7F5;	
+	
+}
+
+#contenedor {
+	width:98%;
+	heigth:98%;
+	margin:auto;
+	border: 3px #262525 solid;
+	border-radius: 10px;	
+}
+
+#cabecera {
+	color:#000000;
+	text-align:center;
+	font-weight:bold;
+	font-size:2.5em;
+	margin-bottom:20px;
+	border:3px solid #000000;
+	border-radius: 5px;
+	
+	width:50%;
+	margin:auto;
+	margin-top:40px;
+	background-color:#ffffff;
+}
+
+
+
+#cuerpo {
+	text-align:center;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:20px;
+	margin-left:20px;
+	font-size:1.5em;
+}
+
+#tabla1, #tabla2, #tabla3, #tabla4,  #tabla5,  #tabla6 {
+	width:90%;
+	margin:auto;
+	
+}
+
+#boton1 {
+	margin-top:20px;
+	margin-bottom:200px;
+	margin-left:50px;
+}
+
+.izquierda {
+	text-align:right;
+	margin-bottom: 30px;
+	border:2px solid #272626;
+	border-radius:5px;
+}
+ .boton {
+	text-align:right;
+	
+	 
+ }
+ 
+ #tabla1 td, #tabla2 td, #tabla3 td, #tabla4 td, #tabla5 td, #tabla6 td{
+	 
+		border:2px solid #000000; 
+ }
+ 
+#dardos {
+	
+	margin:auto;
+	display:none;	
+	
+}
+
+#dardo1, #dardo2, #dardo3 {
+	width:40px;	
+	
+}
+
+#tabla2 , #tabla3,  #tabla4, #tabla5,  #tabla6 {
+	
+	margin:auto;
+  	display:none;
+
+}
+
+.jugador {
+	
+	width: 80px;
+}
+
+
+.puntos, .ultimo {
+	
+	width: 60px;	
+}
+
+
+</style>
+</head>
+
+<body>
+<div id='contenedor'>
+<header id="cabecera">
+DARDOS
+</header>
+<div id="cuerpo">
+Juego 301
+</div>
+<table id="tabla1">
+<tr><td><b>Jugadores</b></td><td><b>Puntos</b></td><td><b>Último</b></td><td></td></tr>
+<tr><td class="jugador" id="jugador1"></td><td  class="puntos" id="puntos1"></td><td  class="ultimo" id="ultimo1"></td><td  class="b_aceptar"><input type="button" id="puntuar1" value="Puntuar"></td></tr>
+</table>
+<table id="tabla2">
+<tr><td class="jugador" id="jugador2"></td><td class="puntos" id="puntos2"></td><td  class="ultimo" id="ultimo2"></td><td class="b_aceptar"><input type="button" id="puntuar2" value="Puntuar"></td></tr>
+</table>
+<table id="tabla3">
+<tr><td class="jugador" id="jugador3"></td><td class="puntos" id="puntos3"></td><td  class="ultimo" id="ultimo3"></td><td class="b_aceptar"><input type="button" id="puntuar3" value="Puntuar"></td></traceptar></table>
+<table id="tabla4">
+<tr><td class="jugador" id="jugador4"></td><td class="puntos" id="puntos4"></td><td  class="ultimo" id="ultimo4"></td><td class="b_aceptar"><input type="button" id="puntuar4" value="Puntuar"></td></tr>
+</table>
+<table id="tabla5">
+<tr><td class="jugador" id="jugador5"></td><td class="puntos" id="puntos5"></td><td class="ultimo" id="ultimo5"></td><td class="b_aceptar"><input type="button" id="puntuar5" value="Puntuar"></td></tr>
+</table>
+<table id="tabla6">
+<tr><td class="jugador" id="jugador6"></td><td  class="puntos"id="puntos6"></td><td  class="ultimo" id="ultimo6"></td><td class="b_aceptar"><input type="button" id="puntuar6" value="Puntuar"></td></tr>
+</table>
+
+<table id="dardos">
+<tr><td>Primer dardo</td><td><input type="number" id="dardo1"></td><td>Simple<input type="radio" name="radioG1" id="radio1_0" value="1" checked></td><td>Doble<input type="radio" name ="radioG1" id="radio1_1" value="2"></td><td>Triple<input type="radio" name ="radioG1" id="radio1_2" value="3"></td></tr>
+<tr><td>Segundo dardo</td><td><input type="number" id="dardo2"></td><td>Simple<input type="radio" name="radioG2" id="radio2_0" value="1" checked></td><td>Doble<input type="radio" name ="radioG2" id="radio2_1" value="2"></td><td>Triple<input type="radio" name ="radioG2" id="radio2_2" value="3"></td></tr>
+<tr><td>Tercer dardo</td><td><input type="number" id="dardo3"></td><td>Simple<input type="radio" name="radioG3" id="radio3_0" value="1" checked></td><td>Doble<input type="radio" name ="radioG3" id="radio3_1" value="2"></td><td>Triple<input type="radio" name ="radioG3" id="radio3_2" value="3"></td></tr>
+<tr><td><input type="button" id="sumar" value="Aceptar"></td></tr>
+</table>
+
+</div>
+</body>
+</html>
