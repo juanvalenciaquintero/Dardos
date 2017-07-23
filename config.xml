@@ -2,7 +2,7 @@
 <widget id="com.valencia.emt" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="">
     <name>Dardos</name>
     <description>
- Control de puntiación de juegos de dardos</description>
+ PuntuaciÃ³n de juegos de dardos </description>
     <author email="juannuffin@hotmail.com" href="#">
         Juan Valencia  </author>
     <content src="index.html" />
